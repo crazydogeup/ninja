@@ -10,7 +10,7 @@
           >
         </div>
         <span class="card-subtitle">
-          请点击下方按钮登录，点击按钮后回到本网站查看是否登录成功，京东的升级提示不用管。
+          请点击下方按钮登录，点击按钮后回到本网站查看是否登录成功，京东的升级提示无视即可。
         </span>
       </div>
       <div class="card-body text-center">
