@@ -10,10 +10,10 @@
           >
         </div>
         <span class="card-subtitle">
-          请点击下方按钮登录，点击按钮后回到本网站查看是否登录成功，京东的升级提示不用管。
+          请点击下方按钮登录，点击按钮后回到本网站查看是否登录成功，京东的升级提示无视即可。
         </span>
       </div>
-      <div class="card-body text-center">
+      <!-- <div class="card-body text-center">
         <div v-if="!qrCodeVisibility" class="flex flex-col w-48 m-auto mt-4">
           <el-button type="primary" round @click="showQrcode"
             >扫描二维码登录</el-button
@@ -23,11 +23,11 @@
           >
         </div>
         <img v-else :src="QRCode" :width="256" class="m-auto" />
-      </div>
+      </div> -->
       <div class="card-footer"></div>
     </div>
 
-    <div class="card hidden">
+    <div class="card-body text-center">
       <div class="card-header">
         <div class="flex items-center justify-between">
           <p class="card-title">CK 登录</p>

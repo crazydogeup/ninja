@@ -10,8 +10,8 @@
       </div>
       <div class="card-footer">
         <el-button size="small" auto @click="logout">退出登录</el-button>
-        <el-button type="danger" size="small" auto @click="delAccount"
-          >删除账号</el-button
+        <!-- <el-button type="danger" size="small" auto @click="delAccount"
+          >删除账号</el-button -->
         >
       </div>
     </div>
